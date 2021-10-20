@@ -86,7 +86,9 @@ r            <input
               onChange={e => onInputChange(e)}
             />
           </div>
-          <button className="btn btn-primary">Add User</button>
+          <center>
+          <button className="btn btn-primary" style={{width:"30vw",margin:"10px"}}>Add User</button>
+          </center>
         </form>
       </div>
     </div>
