@@ -160,6 +160,7 @@
         "catchPhrase": "Configurable multimedia task-force",
         "bs": "generate enterprise e-tailers"
       }
+<<<<<<< HEAD
     },
     {
       "name": "pravin sawant",
@@ -176,6 +177,8 @@
       "phone": "",
       "website": "www.kiransawant.com",
       "id": 9
+=======
+>>>>>>> eaf66a6ca2f7863283f5b53fcc0ef714672c77b7
     }
   ]
 }
