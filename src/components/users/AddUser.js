@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2021 Pravin Sawant
+ *   All rights reserved.
+ */
 import React, { useState } from "react";
 import axios from 'axios'
 import { useHistory } from "react-router-dom";
@@ -28,56 +32,61 @@ const AddUser = () => {
         <h2 className="text-center mb-4">Add A User</h2>
         <form onSubmit={e => onSubmit(e)}>
           <div className="form-group">
+          <label for="Name<" class="control-label">Enter Your Name</label>
             <input
               type="text"
-              className="form-control form-control-lg"
-              placeholder="Enter Your Name"
+              id="Name<"
+              className="form-control"
               name="name"
               value={name}
               onChange={e => onInputChange(e)}
             />
           </div>
           <div className="form-group">
+          <label for="Usern" class="control-label">Enter Your Username</label>
             <input
               type="text"
-              className="form-control form-control-lg"
-              placeholder="Enter Your Username"
+              id="Usern"
+              className="form-control"
               name="username"
               value={username}
               onChange={e => onInputChange(e)}
             />
           </div>
           <div className="form-group">
+          <label for="E-mai" class="control-label">Enter Your E-mail Address</label>
             <input
               type="email"
-              className="form-control form-control-lg"
-              placeholder="Enter Your E-mail Address"
+              id="E-mai"
+              className="form-control"
               name="email"
               value={email}
               onChange={e => onInputChange(e)}
             />
           </div>
           <div className="form-group">
+          <label for="Phone" class="control-label">Enter Your Phone Number</label>
             <input
               type="text"
-              className="form-control form-control-lg"
-              placeholder="Enter Your Phone Number"
+              id="Phone"
+              className="form-control"
               name="phone"
               value={phone}
               onChange={e => onInputChange(e)}
             />
           </div>
           <div className="form-group">
+          <label for="Websi" class="control-label">Enter Your Website Name</label>
             <input
               type="text"
-              className="form-control form-control-lg"
-              placeholder="Enter Your Website Name"
+              id="Websi"
+              className="form-control"
               name="website"
               value={website}
               onChange={e => onInputChange(e)}
             />
           </div>
-          <button className="btn btn-primary btn-block">Add User</button>
+          <button className="btn btn-primary">Add User</button>
         </form>
       </div>
     </div>

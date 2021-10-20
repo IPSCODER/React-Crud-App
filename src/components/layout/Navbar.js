@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2021 Pravin Sawant
+ *   All rights reserved.
+ */
 // module start
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
@@ -7,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
-        <Link className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           Recat User
         </Link>
         <button
