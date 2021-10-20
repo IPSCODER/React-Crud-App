@@ -24,11 +24,11 @@ const Home = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" >
       <div className="py-4">
         <h1>Home Page</h1>
-        <table class="table border shadow">
-          <thead class="thead-dark">
+        <table class="table border " style={{boxShadow: "inset 0 0 10px grey"}}>
+          <thead class="thead-dark" >
             <tr>
               <th scope="col">#</th>
               <th scope="col">Name</th>

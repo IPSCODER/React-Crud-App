@@ -2,10 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="container">
-      <div className="py-4">
+    <div className="container" >
+      <div className="py-4" >
         <h1>Contact Page</h1>
-        <form>
+        <form style={{boxShadow: "inset 0 0 10px", padding:"20px"}}>
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input

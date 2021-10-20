@@ -23,11 +23,11 @@ const AddUser = () => {
     history.push("/");
   };
   return (
-    <div className="container">
-      <div className="w-75 mx-auto shadow p-5">
+    <div className="container" style={{boxShadow: "0 0 10px red"}}>
+      <div className="w-75 mx-auto shadow p-5" >
         <h2 className="text-center mb-4">Add A User</h2>
-        <form onSubmit={e => onSubmit(e)}>
-          <div className="form-group">
+        <form onSubmit={e => onSubmit(e)} style={{boxShadow: "inset 0 0 5px", padding: "15px"}}>
+          <div className="form-group" style={{margin:"10px"}}>
             <input
               type="text"
               className="form-control form-control-lg"
@@ -37,7 +37,7 @@ const AddUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-group" style={{margin:"10px"}}>
             <input
               type="text"
               className="form-control form-control-lg"
@@ -47,7 +47,7 @@ const AddUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-group" style={{margin:"10px"}}>
             <input
               type="email"
               className="form-control form-control-lg"
@@ -57,7 +57,7 @@ const AddUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-group" style={{margin:"10px"}}>
             <input
               type="text"
               className="form-control form-control-lg"
@@ -67,7 +67,7 @@ const AddUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-          <div className="form-group">
+          <div className="form-group" style={{margin:"10px"}}>
             <input
               type="text"
               className="form-control form-control-lg"
@@ -77,7 +77,9 @@ const AddUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-          <button className="btn btn-primary btn-block">Add User</button>
+          <center>
+          <button className="btn btn-primary btn-block" style={{margin:"10px",width:"30vw"}}>Add User</button>
+          </center>
         </form>
       </div>
     </div>

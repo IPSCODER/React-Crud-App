@@ -1,14 +1,15 @@
 // module start
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import './nav.css';
 // module end
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-danger" style={{position:"sticky",top:"0"}}>
       <div className="container">
         <Link className="navbar-brand" href="/">
-          Recat User
+          React User
         </Link>
         <button
           className="navbar-toggler"
