@@ -160,25 +160,6 @@
         "catchPhrase": "Configurable multimedia task-force",
         "bs": "generate enterprise e-tailers"
       }
-<<<<<<< HEAD
-    },
-    {
-      "name": "pravin sawant",
-      "username": "Ipscoder",
-      "email": "psawant123@gmail.com",
-      "phone": "8888188818",
-      "website": "www.pravin sawant.com",
-      "id": 8
-    },
-    {
-      "name": "kiran",
-      "username": "ParryaSawant",
-      "email": "kirrans@gmail.com",
-      "phone": "",
-      "website": "www.kiransawant.com",
-      "id": 9
-=======
->>>>>>> eaf66a6ca2f7863283f5b53fcc0ef714672c77b7
     }
   ]
 }
