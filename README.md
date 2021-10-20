@@ -1,3 +1,11 @@
+After npm install
+enter command = npm run start:dev
+for open two server at a time
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
