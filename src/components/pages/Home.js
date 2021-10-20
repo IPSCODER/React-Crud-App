@@ -37,13 +37,9 @@ const Home = () => {
     <div className="container" >
       <div className="py-4">
         <h1>Home Page</h1>
-<<<<<<< HEAD
         <table class="table border " style={{boxShadow: "inset 0 0 10px grey"}}>
           <thead class="thead-dark" >
-=======
-        <table className="table border shadow">
-          <thead className="thead-dark">
->>>>>>> eaf66a6ca2f7863283f5b53fcc0ef714672c77b7
+  
             <tr>
               <th scope="col">#</th>
               <th scope="col">Name</th>

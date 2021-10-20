@@ -12,13 +12,8 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-danger" style={{position:"sticky",top:"0"}}>
       <div className="container">
-<<<<<<< HEAD
         <Link className="navbar-brand" href="/">
           React User
-=======
-        <Link className="navbar-brand" to="/">
-          Recat User
->>>>>>> eaf66a6ca2f7863283f5b53fcc0ef714672c77b7
         </Link>
         <button
           className="navbar-toggler"

@@ -30,14 +30,9 @@ const AddUser = () => {
     <div className="container" style={{boxShadow: "0 0 10px red"}}>
       <div className="w-75 mx-auto shadow p-5" >
         <h2 className="text-center mb-4">Add A User</h2>
-<<<<<<< HEAD
-        <form onSubmit={e => onSubmit(e)} style={{boxShadow: "inset 0 0 5px", padding: "15px"}}>
-          <div className="form-group" style={{margin:"10px"}}>
-=======
         <form onSubmit={e => onSubmit(e)}>
           <div className="form-group">
           <label for="Name<" class="control-label">Enter Your Name</label>
->>>>>>> eaf66a6ca2f7863283f5b53fcc0ef714672c77b7
             <input
               type="text"
               id="Name<"
@@ -47,12 +42,8 @@ const AddUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-<<<<<<< HEAD
-          <div className="form-group" style={{margin:"10px"}}>
-=======
           <div className="form-group">
           <label for="Usern" class="control-label">Enter Your Username</label>
->>>>>>> eaf66a6ca2f7863283f5b53fcc0ef714672c77b7
             <input
               type="text"
               id="Usern"
@@ -62,13 +53,9 @@ const AddUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-<<<<<<< HEAD
-          <div className="form-group" style={{margin:"10px"}}>
-=======
           <div className="form-group">
           <label for="E-mai" class="control-label">Enter Your E-mail Address</label>
->>>>>>> eaf66a6ca2f7863283f5b53fcc0ef714672c77b7
-            <input
+r            <input
               type="email"
               id="E-mai"
               className="form-control"
@@ -77,12 +64,8 @@ const AddUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-<<<<<<< HEAD
-          <div className="form-group" style={{margin:"10px"}}>
-=======
           <div className="form-group">
           <label for="Phone" class="control-label">Enter Your Phone Number</label>
->>>>>>> eaf66a6ca2f7863283f5b53fcc0ef714672c77b7
             <input
               type="text"
               id="Phone"
@@ -92,12 +75,8 @@ const AddUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-<<<<<<< HEAD
-          <div className="form-group" style={{margin:"10px"}}>
-=======
           <div className="form-group">
           <label for="Websi" class="control-label">Enter Your Website Name</label>
->>>>>>> eaf66a6ca2f7863283f5b53fcc0ef714672c77b7
             <input
               type="text"
               id="Websi"
@@ -107,13 +86,7 @@ const AddUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-<<<<<<< HEAD
-          <center>
-          <button className="btn btn-primary btn-block" style={{margin:"10px",width:"30vw"}}>Add User</button>
-          </center>
-=======
           <button className="btn btn-primary">Add User</button>
->>>>>>> eaf66a6ca2f7863283f5b53fcc0ef714672c77b7
         </form>
       </div>
     </div>
